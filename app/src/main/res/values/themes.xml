@@ -1,0 +1,9 @@
+<resources>
+    <!-- The window colour matches the system mode, so the first frame does not flash the wrong colour;
+         the app then applies the saved theme before drawing its own content. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+    </style>
+</resources>
